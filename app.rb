@@ -12,8 +12,8 @@ class App < Sinatra::Base
 
     @analyzed_text = TextAnalyzer.new(params[:user_text])
 
-    @analyzed_text.most_used_letter
-    
+    hash = @analyzed_text.most_used_letter
+
     binding.pry
     erb :results
   end
