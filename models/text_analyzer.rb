@@ -18,7 +18,7 @@ class TextAnalyzer
     text.scan(/[bcdfghjklmnpqrstvwxyz]/).count
   end
 
-  def self.most_used_letter
+  def self.most_used_letter(text)
     s1 = text.gsub(/[^a-z]/, '') # gets rid of spaces
     arr = s1.split('')
     arr1 = arr.uniq
