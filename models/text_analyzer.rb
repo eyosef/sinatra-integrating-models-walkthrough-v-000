@@ -5,7 +5,7 @@ class TextAnalyzer
     @text = text.downcase
   end
 
-  def self.count_of_words(words)
+  def self.count_of_words(text)
     words = text.split(" ")
     words.count
   end
