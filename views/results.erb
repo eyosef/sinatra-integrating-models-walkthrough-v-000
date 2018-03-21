@@ -10,11 +10,7 @@
 
   <% hash = @analyzed_text.most_used_letter %>
   <% hash.each do |key, value| %>
-    <%= key%>, used
-  <% end %>
-
-  <% hash.each do |key, value| %>
-    <%= value %> times
+    <%= key%>, used   <%= value %> times
   <% end %>
 
 </h2>
