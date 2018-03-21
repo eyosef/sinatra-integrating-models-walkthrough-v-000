@@ -1,3 +1,4 @@
+require 'pry'
 require_relative 'config/environment'
 require_relative 'models/text_analyzer.rb'
 
